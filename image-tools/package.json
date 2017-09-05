@@ -1,0 +1,48 @@
+{
+    "name": "open-test-tensor-image-tools",
+    "version": "1.0.0",
+    "description": "Open tests tensor image tools",
+    "main": "index.js",
+    "author": "andrewp",
+    "license": "Apache 2",
+    "bugs": {
+        "url": "https://github.com/Hero7admin/Hero.Car.Care.Tests/issues"
+    },
+    "devDependencies": {
+        "chai": "2.2.0",
+        "chai-as-promised": "5.0.0",
+        "colors": "1.0.3",
+        "express": "4.12.3",
+        "mocha": "2.4.5",
+        "q": "2.0.2",
+        "underscore": "1.8.3",
+        "wd": "0.3.11"
+    },
+    "scripts": {
+        "qr": "node qrcodetest.js",
+        "compare": "node compareTest.js",
+        "testsuite": "node testsuite.js",
+        "preptest": "node preptesttest.js",
+        "recordtest": "node recordTestTest.js",
+        "hook": "node iohooktest.js",
+        "apple": "node applescripttest.js",
+        "initial-test": "mocha initial-test.spec.js"
+    },
+    "dependencies": {
+        "canvas": "^1.6.5",
+        "datauri": "^1.0.5",
+        "glob": "^7.1.2",
+        "iohook": "^0.1.9",
+        "jsonfile": "^3.0.1",
+        "jsqrcode": "0.0.7",
+        "keycode": "^2.1.9",
+        "node-resemble-v2": "^1.0.0",
+        "prompt": "^1.0.0",
+        "qrcode": "^0.9.0",
+        "robotjs": "^0.4.7",
+        "run-applescript": "^3.0.0",
+        "selenium-webdriver": "3.0.0-beta-3",
+        "wd-bridge": "0.0.2",
+        "yiewd": "0.6.0"
+    }
+}
